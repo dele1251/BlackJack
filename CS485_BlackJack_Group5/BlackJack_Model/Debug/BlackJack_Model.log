@@ -1,0 +1,20 @@
+﻿  PlayerCPU.cpp
+  PlayerBuilder.cpp
+  Player.cpp
+  NormalStrategy.cpp
+  Money.cpp
+  Hand.cpp
+  Deck.cpp
+  DealerStrategy.cpp
+  CurrencyException.cpp
+  CurrencyConversion.cpp
+  Currency.cpp
+  CPUStrategyFactory.cpp
+  CPUBuilder.cpp
+  CounterStrategy.cpp
+  Card.cpp
+  BlackJackModel.cpp
+  BlackJackPresenter.cpp
+  BlackJackDeck.cpp
+  Generating Code...
+  BlackJack_Model.vcxproj -> C:\Users\ernes\Source\Repos\BlackJack\CS485_BlackJack_Group5\Debug\BlackJack_Model.lib

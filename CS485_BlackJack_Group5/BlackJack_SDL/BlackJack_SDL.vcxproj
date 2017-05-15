@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{70BF53D7-B4FA-4EAA-AE15-CE67F47916F4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>BlackJack_SDL</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>c:\Program Files (x86)\SDL2.0.3\include;$(SolutionDir)\BlackJack_Model;$(SolutionDir)\SDLApp2;$(IncludePath)</IncludePath>
+    <LibraryPath>c:\Program Files (x86)\SDL2.0.3\lib\x86;$(SolutionDir)\Debug;$(SolutionDir)\BlackJack_Model\Debug;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>c:\Program Files (x86)\SDL2.0.3\include;$(SolutionDir)\BlackJack_Model;$(SolutionDir)\SDLApp2;$(IncludePath)</IncludePath>
+    <LibraryPath>c:\Program Files (x86)\SDL2.0.3\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDLApp2.lib;BlackJack_Model.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="BlackJackSDLUI.h" />
+    <ClInclude Include="BlackJackView_SDL.h" />
+    <ClInclude Include="mem_debug.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Sprite\10_of_clubs.png" />
+    <Image Include="Sprite\10_of_diamonds.png" />
+    <Image Include="Sprite\10_of_hearts.png" />
+    <Image Include="Sprite\10_of_spades.png" />
+    <Image Include="Sprite\1_BlackJack_Table.png" />
+    <Image Include="Sprite\2_of_clubs.png" />
+    <Image Include="Sprite\2_of_diamonds.png" />
+    <Image Include="Sprite\2_of_hearts.png" />
+    <Image Include="Sprite\2_of_spades.png" />
+    <Image Include="Sprite\3_of_clubs.png" />
+    <Image Include="Sprite\3_of_diamonds.png" />
+    <Image Include="Sprite\3_of_hearts.png" />
+    <Image Include="Sprite\3_of_spades.png" />
+    <Image Include="Sprite\4_of_clubs.png" />
+    <Image Include="Sprite\4_of_diamonds.png" />
+    <Image Include="Sprite\4_of_hearts.png" />
+    <Image Include="Sprite\4_of_spades.png" />
+    <Image Include="Sprite\5_of_clubs.png" />
+    <Image Include="Sprite\5_of_diamonds.png" />
+    <Image Include="Sprite\5_of_hearts.png" />
+    <Image Include="Sprite\5_of_spades.png" />
+    <Image Include="Sprite\6_of_clubs.png" />
+    <Image Include="Sprite\6_of_diamonds.png" />
+    <Image Include="Sprite\6_of_hearts.png" />
+    <Image Include="Sprite\6_of_spades.png" />
+    <Image Include="Sprite\7_of_clubs.png" />
+    <Image Include="Sprite\7_of_diamonds.png" />
+    <Image Include="Sprite\7_of_hearts.png" />
+    <Image Include="Sprite\7_of_spades.png" />
+    <Image Include="Sprite\8_of_clubs.png" />
+    <Image Include="Sprite\8_of_diamonds.png" />
+    <Image Include="Sprite\8_of_hearts.png" />
+    <Image Include="Sprite\8_of_spades.png" />
+    <Image Include="Sprite\9_of_clubs.png" />
+    <Image Include="Sprite\9_of_diamonds.png" />
+    <Image Include="Sprite\9_of_hearts.png" />
+    <Image Include="Sprite\9_of_spades.png" />
+    <Image Include="Sprite\ace_of_clubs.png" />
+    <Image Include="Sprite\ace_of_diamonds.png" />
+    <Image Include="Sprite\ace_of_hearts.png" />
+    <Image Include="Sprite\ace_of_spades.png" />
+    <Image Include="Sprite\ace_of_spades2.png" />
+    <Image Include="Sprite\black_joker.png" />
+    <Image Include="Sprite\jack_of_clubs.png" />
+    <Image Include="Sprite\jack_of_clubs2.png" />
+    <Image Include="Sprite\jack_of_diamonds.png" />
+    <Image Include="Sprite\jack_of_diamonds2.png" />
+    <Image Include="Sprite\jack_of_hearts.png" />
+    <Image Include="Sprite\jack_of_hearts2.png" />
+    <Image Include="Sprite\jack_of_spades.png" />
+    <Image Include="Sprite\jack_of_spades2.png" />
+    <Image Include="Sprite\king_of_clubs.png" />
+    <Image Include="Sprite\king_of_clubs2.png" />
+    <Image Include="Sprite\king_of_diamonds.png" />
+    <Image Include="Sprite\king_of_diamonds2.png" />
+    <Image Include="Sprite\king_of_hearts.png" />
+    <Image Include="Sprite\king_of_hearts2.png" />
+    <Image Include="Sprite\king_of_spades.png" />
+    <Image Include="Sprite\king_of_spades2.png" />
+    <Image Include="Sprite\queen_of_clubs.png" />
+    <Image Include="Sprite\queen_of_clubs2.png" />
+    <Image Include="Sprite\queen_of_diamonds.png" />
+    <Image Include="Sprite\queen_of_diamonds2.png" />
+    <Image Include="Sprite\queen_of_hearts.png" />
+    <Image Include="Sprite\queen_of_hearts2.png" />
+    <Image Include="Sprite\queen_of_spades.png" />
+    <Image Include="Sprite\queen_of_spades2.png" />
+    <Image Include="Sprite\red_joker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BlackJackSDLUI.cpp" />
+    <ClCompile Include="BlackJackView_SDL.cpp" />
+    <ClCompile Include="BlackJack_SDLDriver.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\BlackJack_Model\BasicStrategy.txt" />
+    <Text Include="..\BlackJack_Model\DecisionTable.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlackJack_Model\BlackJack_Model.vcxproj">
+      <Project>{cbebc978-a023-4739-8a7e-d5d0951517be}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\SDLApp2\SDLApp2.vcxproj">
+      <Project>{ef853eb9-f2b6-4b66-8f6c-e4e4ca8dbe50}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

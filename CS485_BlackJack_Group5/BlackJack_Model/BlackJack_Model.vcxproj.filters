@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Builders and Factories">
+      <UniqueIdentifier>{d6872732-0499-4459-80f3-9430d2a1ddd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Builders and Factories">
+      <UniqueIdentifier>{4ef50c46-33d3-4676-a188-4137717d8094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{2e3ec374-3d7a-4765-b8b3-80d6cc1d3671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Card and Deck">
+      <UniqueIdentifier>{5d12f17c-d924-4b8e-b603-af34b7e8c7dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{320fbdcd-f592-401a-a5ae-58e9c2fcdeae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External Classes">
+      <UniqueIdentifier>{0e5035dc-4048-4a36-916f-13d3a38d479c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player">
+      <UniqueIdentifier>{38fe2ab7-bcef-408e-b1aa-383606320793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model">
+      <UniqueIdentifier>{270853fa-4f16-4829-852b-84de412e7180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Card and Deck">
+      <UniqueIdentifier>{4ee050c7-cc0f-4244-989e-0d0ce9d10096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Presenter">
+      <UniqueIdentifier>{d05dbfe0-4390-4f0d-b853-eaf920186e75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\View">
+      <UniqueIdentifier>{c801d69e-8e21-4052-8aa6-b75c8268c576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{b1352dfa-4592-4364-9bc8-3a4a69fa7f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External Resource">
+      <UniqueIdentifier>{4552f99d-65ce-48ce-b2f0-1c20c6da077f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mem_debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBuilder.h">
+      <Filter>Header Files\Builders and Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUBuilder.h">
+      <Filter>Header Files\Builders and Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCPU.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="DealerStrategy.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalStrategy.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CounterStrategy.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="IPlayStrategy.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackJackModel.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>Header Files\Card and Deck</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackJackDeck.h">
+      <Filter>Header Files\Card and Deck</Filter>
+    </ClInclude>
+    <ClInclude Include="Deck.h">
+      <Filter>Header Files\Card and Deck</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackJackPresenter.h">
+      <Filter>Header Files\Presenter</Filter>
+    </ClInclude>
+    <ClInclude Include="IBlackJackView.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="IBlackJackPresenter.h">
+      <Filter>Header Files\Presenter</Filter>
+    </ClInclude>
+    <ClInclude Include="IBlackJackUI.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Currency.h">
+      <Filter>Header Files\External Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrencyConversion.h">
+      <Filter>Header Files\External Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrencyException.h">
+      <Filter>Header Files\External Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Money.h">
+      <Filter>Header Files\External Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Hand.h">
+      <Filter>Header Files\Card and Deck</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUStrategyFactory.h">
+      <Filter>Header Files\Builders and Factories</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BlackJackPresenter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackJackModel.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBuilder.cpp">
+      <Filter>Source Files\Builders and Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="Deck.cpp">
+      <Filter>Source Files\Card and Deck</Filter>
+    </ClCompile>
+    <ClCompile Include="Hand.cpp">
+      <Filter>Source Files\Card and Deck</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>Source Files\Card and Deck</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="DealerStrategy.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CounterStrategy.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackJackDeck.cpp">
+      <Filter>Source Files\Card and Deck</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalStrategy.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Money.cpp">
+      <Filter>Source Files\External Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrencyException.cpp">
+      <Filter>Source Files\External Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrencyConversion.cpp">
+      <Filter>Source Files\External Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Currency.cpp">
+      <Filter>Source Files\External Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUBuilder.cpp">
+      <Filter>Source Files\Builders and Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCPU.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUStrategyFactory.cpp">
+      <Filter>Source Files\Builders and Factories</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="DecisionTable.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="BasicStrategy.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

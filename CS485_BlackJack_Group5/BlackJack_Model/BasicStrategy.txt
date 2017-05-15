@@ -1,0 +1,55 @@
+10
+1111 Y Y Y Y Y Y Y Y Y Y
+1010 N N N N N N N N N N
+99 Y Y Y Y Y N Y Y N N
+88 Y Y Y Y Y Y Y Y Y Y
+77 Y Y Y Y Y Y N N N N
+66 N Y Y Y Y N N N N N
+55 N N N N N N N N N N
+44 N N N N N N N N N N
+33 N N Y Y Y Y N N N N
+22 N N Y Y Y Y N N N N
+18
+1110 S S S S S S S S S S
+119 S S S S S S S S S S
+118 S S S S S S S S S S 
+117 S S S S S S S H H H
+116 H H H H H H H H H H
+115 H H H H H H H H H H
+114 H H H H H H H H H H
+113 H H H H H H H H H H
+112 H H H H H H H H H H
+1011 S S S S S S S S S S
+911 S S S S S S S S S S
+811 S S S S S S S S S S 
+711 S S S S S S S H H H
+611 H H H H H H H H H H
+511 H H H H H H H H H H
+411 H H H H H H H H H H
+311 H H H H H H H H H H
+211 H H H H H H H H H H
+19
+21 S S S S S S S S S S
+20 S S S S S S S S S S
+19 S S S S S S S S S S
+18 S S S S S S S S S S
+17 S S S S S S S S S S
+16 S S S S S H H H H H
+15 S S S S S H H H H H
+14 S S S S S H H H H H
+13 S S S S S H H H H H
+12 H H S S S H H H H H
+11 H H H H H H H H H H
+10 H H H H H H H H H H
+9 H H H H H H H H H H
+8 H H H H H H H H H H
+7 H H H H H H H H H H
+6 H H H H H H H H H H
+5 H H H H H H H H H H
+4 H H H H H H H H H H
+
+
+
+
+https://www.blackjackapprenticeship.com/resources/blackjack-strategy-charts/
+make a text chart and add it to normal and the card counter
